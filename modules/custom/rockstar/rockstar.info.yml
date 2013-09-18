@@ -1,0 +1,8 @@
+name: Rockstar
+type: module
+description: This is the rockstar module.
+package: Rockstar Modules
+core: 8.x
+dependencies:
+  - block
+  - node

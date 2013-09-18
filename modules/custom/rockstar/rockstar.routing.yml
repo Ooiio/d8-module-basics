@@ -1,0 +1,14 @@
+rockstar.rock_on:
+  path: '/rock-on'
+  defaults:
+    _content: '\Drupal\rockstar\Controller\RockstarController::rockOnContent'
+  requirements:
+    _permission: 'access content'
+
+rockster.rock_block:
+  path: '/rock-block'
+  defaults:
+    _content: '\Drupal\rockstar\Controller\RockstarBlockListController::listing'
+    entity_type: 'block'
+  requirements:
+    _permission: 'administer blocks'
